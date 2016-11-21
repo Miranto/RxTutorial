@@ -1,0 +1,6 @@
+framework module Pods_RxTutorialTests {
+  umbrella header "Pods-RxTutorialTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
