@@ -7,7 +7,7 @@ target 'RxTutorial' do
   use_frameworks!
   
   # Pods for RxTutorial
-  pod 'Moya'
+  pod 'Moya', '8.0.0-beta.4'
   # pod 'Moya/RxSwift'
   
   target 'RxTutorialTests' do
