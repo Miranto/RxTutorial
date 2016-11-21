@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0403FA7EA4B6B42331D50083 /* Pods_RxTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCAC710D7E8421CB157E3C2 /* Pods_RxTutorial.framework */; };
 		0931B7526948A3FCDD3DA001 /* Pods_RxTutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A651E82BCB91F6580D9221 /* Pods_RxTutorialTests.framework */; };
+		610BB83F1DE3661E0099F3AB /* EventApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610BB83E1DE3661D0099F3AB /* EventApi.swift */; };
 		61DAE68B1DE3553400364626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DAE68A1DE3553400364626 /* AppDelegate.swift */; };
 		61DAE68D1DE3553400364626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DAE68C1DE3553400364626 /* ViewController.swift */; };
 		61DAE6901DE3553400364626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DAE68E1DE3553400364626 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		5BCAC710D7E8421CB157E3C2 /* Pods_RxTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DECFD6BD7600F814489B3A0 /* Pods-RxTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTutorial/Pods-RxTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		60384F1C4788A3AF6D777894 /* Pods-RxTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTutorialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTutorialTests/Pods-RxTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		610BB83E1DE3661D0099F3AB /* EventApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventApi.swift; sourceTree = "<group>"; };
 		61DAE6871DE3553400364626 /* RxTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DAE68A1DE3553400364626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61DAE68C1DE3553400364626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				61DAE68A1DE3553400364626 /* AppDelegate.swift */,
 				61DAE68C1DE3553400364626 /* ViewController.swift */,
+				610BB83E1DE3661D0099F3AB /* EventApi.swift */,
 				61DAE68E1DE3553400364626 /* Main.storyboard */,
 				61DAE6911DE3553400364626 /* Assets.xcassets */,
 				61DAE6931DE3553400364626 /* LaunchScreen.storyboard */,
@@ -446,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				610BB83F1DE3661E0099F3AB /* EventApi.swift in Sources */,
 				61DAE68D1DE3553400364626 /* ViewController.swift in Sources */,
 				61DAE68B1DE3553400364626 /* AppDelegate.swift in Sources */,
 			);
@@ -698,6 +702,7 @@
 				61DAE6B11DE3553500364626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61DAE6B21DE3553500364626 /* Build configuration list for PBXNativeTarget "RxTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +711,7 @@
 				61DAE6B41DE3553500364626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61DAE6B51DE3553500364626 /* Build configuration list for PBXNativeTarget "RxTutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +720,7 @@
 				61DAE6B71DE3553500364626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
